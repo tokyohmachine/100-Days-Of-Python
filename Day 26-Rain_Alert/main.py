@@ -2,15 +2,7 @@ import requests
 from twilio.rest import Client
 import os
 
-# END_POINT = 'https://api.openweathermap.org/data/2.5/onecall'
-# API_KEY = 'b5d67c648c7bda10e6cd461c2a84019c'
-#
-# parameters = {
-#     "lat": -22.762648,
-#     "lng": -47.842731,
-#     "appid": API_KEY,
-#       "exclude": "current, minutely, daily",
-# }
+
 
 account_sid = os.getenv('account_sid')
 auth_token = os.getenv('auth_token')
